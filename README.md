@@ -1,13 +1,13 @@
-# Very short description of the package
+# Some handy eloquent macros used in our applications
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/gnahotelsolutions/laravel-eloquent-macros.svg?style=flat-square)](https://packagist.org/packages/gnahotelsolutions/laravel-eloquent-macros)
 [![Build Status](https://img.shields.io/travis/gnahotelsolutions/laravel-eloquent-macros/master.svg?style=flat-square)](https://travis-ci.org/gnahotelsolutions/laravel-eloquent-macros)
 [![Quality Score](https://img.shields.io/scrutinizer/g/gnahotelsolutions/laravel-eloquent-macros.svg?style=flat-square)](https://scrutinizer-ci.com/g/gnahotelsolutions/laravel-eloquent-macros)
 [![Total Downloads](https://img.shields.io/packagist/dt/gnahotelsolutions/laravel-eloquent-macros.svg?style=flat-square)](https://packagist.org/packages/gnahotelsolutions/laravel-eloquent-macros)
 
-![Logo](https://banners.beyondco.de/Laravel%20Eloquent%20Macros.png?theme=light&packageManager=composer+require&packageName=gnahotelsolutions%2Flaravel-eloquent-macros&pattern=architect&style=style_1&description=Some+handy+eloquent+macros+used+in+our+applications&md=1&showWatermark=1&fontSize=100px&images=puzzle))
+![Logo](https://banners.beyondco.de/Laravel%20Eloquent%20Macros.png?theme=light&packageManager=composer+require&packageName=gnahotelsolutions%2Flaravel-eloquent-macros&pattern=architect&style=style_1&description=Some+handy+eloquent+macros+used+in+our+applications&md=1&showWatermark=1&fontSize=100px&images=puzzle)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+This package provides a few of our most used Laravel Eloquent macros that we have to write in almost every project. Feel free to use them in your own apps. More macros could be added in the future.
 
 ## Installation
 
