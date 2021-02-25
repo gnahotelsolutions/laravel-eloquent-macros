@@ -1,0 +1,54 @@
+{
+    "name": "gnahotelsolutions/laravel-eloquent-macros",
+    "description": "Some handy eloquent macros used in our applications",
+    "keywords": [
+        "gnahotelsolutions",
+        "laravel-eloquent-macros"
+    ],
+    "homepage": "https://github.com/gnahotelsolutions/laravel-eloquent-macros",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "David Llop",
+            "email": "dllop@gnahs.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^8.4|^9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gnahotelsolutions\\LaravelEloquentMacros\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gnahotelsolutions\\LaravelEloquentMacros\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gnahotelsolutions\\LaravelEloquentMacros\\LaravelEloquentMacrosServiceProvider"
+            ],
+            "aliases": {
+                "LaravelEloquentMacros": "Gnahotelsolutions\\LaravelEloquentMacros\\LaravelEloquentMacrosFacade"
+            }
+        }
+    }
+}
